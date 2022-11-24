@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;
+}
+.header{
+    display: flex;
+    background-color: #240d0d;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem 7%;
+    top:0; left: 0; right: 0;
+}
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style-type: none;
+}
+.header .logo{
+    display: flex;
+    color: white;
+    position: relative;
+    right: 2px;
+    
+}
+.header h2{
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+    left: 9px;
+    top: 5px;
+    
+}
+.logo svg{
+    height: 32px;
+    fill: #29d9d5;
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid #29d9d5;;
+    color: #29d9d5;
+    border-radius: 30px;
+    display: inline-block;
+}
+.btn:hover{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;;
+    color: #000000;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: white;
+}
+.header .navbar a{
+    margin: 0 .7rem;
+   font-size: 1.2rem;
+   color: white;
+}
+
+
+/* section */
+.blog{
+    padding: 10px 40px;
+}
+.blog .head{
+    padding: 10px;
+margin: 10px;
+background-color: peachpuff;
+border-radius: 15px;
+}
+.blog .head{
+padding: 10px;
+margin: 10px;
+background-color: peachpuff;
+border-radius: 15px;
+}
+.blog .head h3{
+color:#1641a5;
+font-size: 30px;
+}
+.blog .head p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.cart img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.cart img:hover{
+    opacity: 0.6;
+}
+.start{
+    padding: 30px 200px;
+    text-align: center;
+    background: url(marvel-villains-laptop\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-16tjy-1920x1080.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+.start p{
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.p1{
+    font-size: 1.5rem;
+    color: #446fd2;
+}
+.p2{
+    font-size: 2.5rem;
+    color: white;    
+}
+.p3{
+    font-size: 1.0rem;
+    color: white;
+}
+/* footer */
+.info h1,p{
+    color: white;
+    margin: 10px;
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px 40px;
+    gap: 30px;
+    /* height: 300px; */
+}
+.info input{
+    margin: 10px 0;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: black;
+    border: solid #29d9d5 2px;
+    border-radius: 35px;
+}
+input:hover{
+
+    color: #000000;
+    background-color: white;
+}
+
